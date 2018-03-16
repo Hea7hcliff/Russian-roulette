@@ -31,7 +31,7 @@ def spin(cylinder):
     
     temp = [0] * 6
     
-    steps = random.randint(1,6)
+    steps = random.randint(1,50)
     print("Indexes forward:", steps)
     print("Total cycles:",round(steps/6,2))
         
